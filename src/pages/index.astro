@@ -1,11 +1,30 @@
 ---
-import Welcome from '../components/Welcome.astro';
 import Layout from '../layouts/Layout.astro';
-
-// Welcome to Astro! Wondering what to do next? Check out the Astro documentation at https://docs.astro.build
-// Don't want to use any of this? Delete everything in this file, the `assets`, `components`, and `layouts` directories, and start fresh.
 ---
 
 <Layout>
-	<Welcome />
+	<main class="container mt-5">
+<!-- 		<nav class="d-flex gap-3 mb-5">
+			<a href="#" class="link-offset-2 link-underline link-underline-opacity-0">Home</a>
+			<a href="#" class="link-offset-2 link-underline link-underline-opacity-0">About</a>
+			<a href="#" class="link-offset-2 link-underline link-underline-opacity-0">Blog</a>
+		</nav> -->
+		<header>
+			<h1 class="fs-4 mb-3">David Lorenzo</h1>
+			<p class="fw-light">Hi, <strom class="text-primary">I'm a UI/UX designer and Frontend</strom> developer based in the Dominican Republic. <strom class="text-primary">+1 year of experience in Frontend development.</strom></p>
+			<p class="fw-light">Passionate about designing and creating elegant and intuitive user interfaces that improve the user experience. <strom class="text-primary">Junior in JavaScript.</strom> Always eager to learn new technologies and stay updated with industry trends to continuously improve my skills and contribute to innovative projects.</p>
+		</header>
+		<footer class="d-flex flex-column gap-2 mt-3">
+				<a href="#" class="link-offset-2 link-underline link-underline-opacity-0"><i class="bi bi-arrow-up-right fs-6 me-1"></i>Github</a>
+				<a href="#" class="link-offset-2 link-underline link-underline-opacity-0"><i class="bi bi-arrow-up-right fs-6 me-1"></i>Threads</a>
+				<a href="#" class="link-offset-2 link-underline link-underline-opacity-0"><i class="bi bi-arrow-up-right fs-6 me-1"></i>dlorenzodev@outlook.com</a>
+		</footer>
+	</main>
 </Layout>
+
+<style>
+	.container {
+		margin: 1.5rstrom auto;
+		width: 550px;
+	}
+</style>
